@@ -1,0 +1,27 @@
+# 基本概念
+- Machine Learning
+    - Mike Jordon: 
+    - ML = Matrix + Optimization + Algorithm + Statistics
+- 尽量用矩阵, 范数去表达目标函数
+- ridge regression
+    - 对目标函数(最小二乘误差函数)加一个惩罚项 `+lamda*||a||`
+        - 注意是二范数
+        - 如果一范数, 则叫Lasso
+    - 目的就是使得X_T*X变成正定阵, a是所优化参数, lamda是可调节参数.
+- Data 分类
+    - Training data
+    - Validation data
+    - Test data
+- 二分类(0,1)问题
+    - 使用最大似然估计, maximum likihood
+    - 利用sigmoid函数,取log...
+- Unsupervised learning
+    - PCA
+    - 降维
+        - 线性
+        - 非线性
+    - 聚类
+- Semi-supervised Learning
+    - 标签数据少, 无标签数据多, 将测试数据也放进去, 循环训练.
+        - Transtactive learning. 传导学习
+
