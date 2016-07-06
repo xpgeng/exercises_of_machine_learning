@@ -35,7 +35,8 @@
 ### Idea
 
 
-## Kernels
+## Kernel Methods
+
 
 
 
